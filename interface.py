@@ -14,7 +14,7 @@ while True:
     if value == 1:
         print1.print_all_to_console('employees.csv')
     elif value == 2:
-        write.New_Entry()
+        write.New_Entry('employees.csv')
     elif value == 3:
         search.Search_Entry('employees.csv')
     elif value == 4:
